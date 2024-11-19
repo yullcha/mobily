@@ -1,0 +1,75 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+}
+
+.footer__paragraf {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.ceny{
+    gap: 0em;
+}
+
+.footer__button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.karticky{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 300px;
+}
+
+.title{
+    flex-grow: 1;
+}
+
+.card p {
+    margin: 0;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 0.25em;
+    font-weight: 700;
+}
+
+.button--primary{
+    display: block;
+    background-color: limegreen;
+    color: white;
+}
+
+.puv_cena{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.akt_cena{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.Skladem{
+    color: limegreen;
+}
